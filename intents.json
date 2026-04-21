@@ -1,0 +1,213 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good evening",
+        "hi there", "hello chatbot"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! Ask me about hackathons, jobs, events, or competitions."
+      ]
+    },
+
+    {
+      "tag": "student_type",
+      "patterns": [
+        "I am a school student",
+        "I am in school",
+        "I am a college student",
+        "I am studying in college",
+        "I am a student"
+      ],
+      "responses": [
+        "Great! I can help you find exhibitions, hackathons, competitions, and learning opportunities.",
+        "Nice! Tell me your interest like tech, sports, or jobs."
+      ]
+    },
+
+    {
+      "tag": "hackathon",
+      "patterns": [
+        "any hackathons",
+        "hackathon near me",
+        "coding competitions",
+        "tech contests",
+        "AI hackathon",
+        "UI UX hackathon",
+        "design hackathon",
+        "programming event",
+        "I want to participate in hackathon",
+        "any coding events"
+      ],
+      "responses": [
+        "Here are some hackathons: UI/UX Design Hack (Online), AI Challenge (Offline Chennai).",
+        "You can participate in Design Hackathon or AI Innovation Challenge."
+      ]
+    },
+
+    {
+      "tag": "jobs",
+      "patterns": [
+        "any jobs",
+        "job openings",
+        "fresher jobs",
+        "software jobs",
+        "IT jobs",
+        "vacancies",
+        "hiring",
+        "internships",
+        "any internship",
+        "jobs for freshers"
+      ],
+      "responses": [
+        "You can apply for Software Intern and Junior Developer roles.",
+        "Fresher job openings are available in IT companies."
+      ]
+    },
+
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports events",
+        "any sports competitions",
+        "football competitions",
+        "cricket tournaments",
+        "sports tournaments",
+        "games events",
+        "athletics competition",
+        "college sports events"
+      ],
+      "responses": [
+        "Football tournaments and cricket leagues are coming soon.",
+        "You can participate in inter-college sports competitions."
+      ]
+    },
+
+    {
+      "tag": "exhibition",
+      "patterns": [
+        "project exhibition",
+        "science exhibition",
+        "any exhibitions",
+        "expo events",
+        "school exhibitions",
+        "college exhibitions",
+        "project expo",
+        "technical exhibition"
+      ],
+      "responses": [
+        "Science exhibitions and project expos are conducted in schools and colleges.",
+        "You can participate in technical and science exhibitions nearby."
+      ]
+    },
+
+    {
+      "tag": "conference",
+      "patterns": [
+        "any conferences",
+        "tech conferences",
+        "research conferences",
+        "seminars",
+        "workshops",
+        "academic conferences",
+        "professional events"
+      ],
+      "responses": [
+        "There are tech conferences and workshops happening regularly.",
+        "You can attend seminars and research conferences to improve your knowledge."
+      ]
+    },
+
+    {
+      "tag": "domain_uiux",
+      "patterns": [
+        "I am interested in UI UX",
+        "UI UX events",
+        "design events",
+        "I like designing",
+        "UX competitions"
+      ],
+      "responses": [
+        "You can join UI/UX hackathons, design competitions, and creative workshops.",
+        "Design hackathons and UI/UX challenges are great for you."
+      ]
+    },
+
+    {
+      "tag": "domain_ai",
+      "patterns": [
+        "I am interested in AI",
+        "AI events",
+        "machine learning competitions",
+        "data science events",
+        "AI hackathons"
+      ],
+      "responses": [
+        "AI hackathons and data science competitions are available.",
+        "You can join machine learning challenges and AI events."
+      ]
+    },
+
+    {
+      "tag": "online_offline",
+      "patterns": [
+        "online events",
+        "offline events",
+        "events near me",
+        "events in my location",
+        "remote events"
+      ],
+      "responses": [
+        "There are both online and offline events available. Please specify your preference.",
+        "You can choose between online or offline events based on your convenience."
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "what can you do",
+        "help me",
+        "how can you help",
+        "features",
+        "what services"
+      ],
+      "responses": [
+        "I can help you find hackathons, jobs, sports events, exhibitions, and conferences.",
+        "Ask me about opportunities like events, jobs, or competitions."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! All the best for your future.",
+        "See you! Feel free to come back anytime."
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": [
+        "random text",
+        "something else",
+        "unknown query"
+      ],
+      "responses": [
+        "Sorry, I didn't understand. You can ask about hackathons, jobs, sports, or exhibitions.",
+        "Please try asking about events, jobs, or competitions."
+      ]
+    }
+
+  ]
+}
